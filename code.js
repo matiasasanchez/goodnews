@@ -70,3 +70,26 @@ while(seleccion === "no") {
 const total =  carrito.reduce ((acc, el) =>  acc + el.precio * el.unidades, 0)
 console.log(`el total final de su compra es: ${total}`)
 
+
+// EVENTOS
+let miBoton=document.getElementById("miBoton");
+miBoton.addEventListener("click", agregar); 
+function agregar() {
+    alert ("Agregaste este modelo al Carrito");
+}
+
+let miBoton2=document.getElementById("miBoton2");
+miBoton2.addEventListener("click", agregar); 
+function agregar() {
+    alert ("Agregaste este modelo al Carrito");
+}
+let miBoton3=document.getElementById("miBoton3");
+miBoton3.addEventListener("click", agregar); 
+function agregar() {
+    alert ("Agregaste este modelo al Carrito");
+}
+let miBoton4=document.getElementById("miBoton4");
+miBoton4.addEventListener("click", agregar); 
+function agregar() {
+    alert ("Agregaste este modelo al Carrito");
+}
