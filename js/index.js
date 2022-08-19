@@ -14,12 +14,8 @@ class ElementoCarrito {
     }
 }
 
-/**
- * Definiciones de constantes
- */
 const estandarDolaresAmericanos = Intl.NumberFormat('en-US');
 
-//Arrays donde guardaremos catálogo de productos y elementos en carrito
 const productos = [];
 const elementosCarrito = [];
 
@@ -29,18 +25,12 @@ const contenedorCarritoCompras = document.querySelector("#items")
 
 const contenedorFooterCarrito = document.querySelector("#footer");
 
-/**
- * Ejecución de funciones
- */
 
 cargarProductos();
 cargarCarrito();
 dibujarCarrito();
 dibujarCatalogoProductos();
 
-/**
- * Definiciones de funciones
- */
 
 function cargarProductos() {
     productos.push(new Producto(1, 'FORGIVE', 5.299, './assests/forgivve.jpg'));
@@ -54,12 +44,7 @@ function cargarProductos() {
 }
 
 function cargarCarrito() {
-    /*let elementoCarrito = new ElementoCarrito(
-        new Producto(1, 'FORGIVE', 5.299, './img/forgivve.jpg'),
-        1
-    );
-
-    elementosCarrito.push(elementoCarrito);*/
+    
 }
 
 function dibujarCarrito() {
@@ -83,7 +68,6 @@ function dibujarCarrito() {
 
             sumaCarrito+=elemento.cantidad*elemento.producto.precio;
 
-            //agregamos evento a carrito
             let cantidadProductos = document.getElementById(`cantidad-producto-${elemento.producto.id}`);
             
             cantidadProductos.addEventListener("change", (e) => {
@@ -95,7 +79,6 @@ function dibujarCarrito() {
         }
     );
 
-    //contenedorCarritoCompras.innerHTML = renglonesCarrito;
     
     if(elementosCarrito.length == 0) {
         contenedorFooterCarrito.innerHTML = `
@@ -124,27 +107,19 @@ function crearCard(producto) {
     `;
     cuerpoCarta.append(botonAgregar);
 
-    //Imagen
     let imagen = document.createElement("img");
     imagen.src = producto.foto;
     imagen.className = "card-img-top";
     imagen.alt = producto.nombre;
 
-    //Card
     let carta = document.createElement("div");
     carta.className = "card m-2 p-2";
     carta.style = "width: 18rem";
     carta.append(imagen);
     carta.append(cuerpoCarta);
 
-    //Contenedor Card
-    //let contenedorCarta = document.createElement("div");
-    //contenedorCarta.className = "col-xs-6 col-sm-3 col-md-2";
-    //contenedorCarta.append(carta);
-
-    //Agregar algunos eventos
+    
     botonAgregar.onclick = () => {
-        //alert("Hiciste click en el producto" + producto.nombre);
 
         let elementoCarrito = new ElementoCarrito(producto, 1);
         elementosCarrito.push(elementoCarrito);
