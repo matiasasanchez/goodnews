@@ -75,21 +75,42 @@ console.log(`el total final de su compra es: ${total}`)
 let miBoton=document.getElementById("miBoton");
 miBoton.addEventListener("click", agregar); 
 function agregar() {
-    alert ("Agregaste este modelo al Carrito");
+    // alert ("Agregaste modelo FORGIVE al Carrito");
+Swal.fire( "Remera FORGIVE " +
+    "agregada al carrito",
+    "success" ) 
+
 }
 
 let miBoton2=document.getElementById("miBoton2");
-miBoton2.addEventListener("click", agregar); 
-function agregar() {
-    alert ("Agregaste este modelo al Carrito");
+miBoton2.addEventListener("click", agregar2); 
+function agregar2() {
+    // alert ("Agregaste modelo GOOD al Carrito");
+    Swal.fire( "Remera GOOD " +
+    "agregada al carrito",
+    "success" ) 
 }
 let miBoton3=document.getElementById("miBoton3");
-miBoton3.addEventListener("click", agregar); 
-function agregar() {
-    alert ("Agregaste este modelo al Carrito");
+miBoton3.addEventListener("click", agregar3); 
+function agregar3() {
+    // alert ("Agregaste  modelo GRATEFUL al Carrito");
+    Swal.fire( "Remera GRATEFUL " +
+    "agregada al carrito",
+    "success" ) 
 }
 let miBoton4=document.getElementById("miBoton4");
-miBoton4.addEventListener("click", agregar); 
-function agregar() {
-    alert ("Agregaste este modelo al Carrito");
+miBoton4.addEventListener("click", agregar4); 
+function agregar4() {
+    // alert ("Agregaste modelo PURE al Carrito");
+    Swal.fire( "Remera PURE " +
+    "agregada al carrito",
+    "success" ) 
 }
+
+
+// JSON Y STORAGE
+const guardarLocal= (nombre, precio) => {localStorage.setItem (nombre,precio) }; 
+guardarLocal("listaRemeras", JSON.stringify(remeras)); 
+
+localStorage.setItem("carrito",JSON.stringify(carrito));
+

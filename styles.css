@@ -1,9 +1,8 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; }
-
-
+    margin: 0%;
+    padding: 0%;
+    scrollbar-width: thin;
+    scrollbar-color: #04BAD8 #F2FF8D; }
 h1 {
 margin: 1rem 40rem;
 justify-content: center;
@@ -17,5 +16,4 @@ color: black
     justify-content: center;
  padding-top: 100px;
 }
-
 
