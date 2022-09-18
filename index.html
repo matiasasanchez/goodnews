@@ -1,89 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title> DEPARTAMENTO 5 </title>
+    <meta name="description"
+        content="Somos GOOD NEWS :) TU Indumentaria FELIZ">
+
+    <link rel="stylesheet" href="./styles/glider.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9eb45967b7.js"></script>
+    <title> GOOD NEWS :) </title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./assests/vecteezy_shirt-line-icon-vector-illustration-logo-template_.jpg" alt="" width="50" height="54">
-              </a>
-            <!-- Button trigger modal -->
-            <button id="toggleMyModal" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                Mi Carrito<i class="bi bi-bag-check-fill"></i>
-            </button>
-        </div>
-    </nav>
-    <div class="container">
-        <div id="depto5" class="row" style="background-color:rgb(201, 45, 45)">
-            <div class="col">
-                <h1 class="text-center"> DEPARTAMENTO 5</h1>
+    <script src="./scripts/glider.min.js"></script>
+
+    <header class="header">
+        <nav class="navBar">
+            <div>
+                <span class="btn__nav">
+                    <i class="fas fa-solid fa-bars"></i>
+                </span>
+                <a class="navBar__logo" href="#">GOOD NEWS :)</a>
             </div>
-        </div>
-        <p></p>
-        <div class="row">
-            <div class="col-md-2" id="boton">
-                <!-- Aqui el boton -->
-            </div>
-        </div>
-        <p></p>
-        <div class="row">
-            <div class="col-md-2">
-                <select id="miSeleccion" class="form-select" aria-label="Default select example">
-                    <option value="pordefecto">ORDENAR</option>
-                    <option value="menor">Por menor precio</option>
-                    <option value="mayor">Por mayor precio</option>
-                    <option value="alfabetico">Por orden alfabético</option>
-                  </select>
-                <p></p>
-            </div>
-        </div>
-        <div>
-            <ul id=milista class="row list-group list-group-horizontal">
-                <!-- Aqui los productos -->
+            <ul class="navBar__menu">
+                <li>
+                    <a href="#" id="btnNavProductos">PRODUCTOS</a>
+                    <ul>
+                        <li><a id="btnNavSimpleTrue" href="#">SIMPLE TRUE</a></li>
+                        <li><a id="btnNavNewBorn" href="#">NEW BORN</a></li>
+                        <li><a id="btnNavNoFear" href="#">NO FEAR</a></li>
+                        <li><a id="btnNavTodosProductos" href="#">VER TODOS</a></li>
+                    </ul>
+                </li>
+                <form action="" id="searchForm">
+                    <input id="searchInput" type="text" placeholder="Buscar producto">
+                    <span id="productNotFoundedAlert">
+                        <p>No se encontraron coincidencias :(</p>
+                    </span>
+                </form>
+                <li class="navBar__menu__btnCartMenu" id="btnCartView">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="navBar__menu__btnCartMenu-counter"></span>
+                </li>
             </ul>
-            <p></p>
-        </div>
-        <div id="suscripcion">
-            <!-- Aquí suscripcion -->
-        </div>
-        <div>
-            <h4>Tu carrito:</h4>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Cantidad</th>
-                        <th scope="col">Precio</th>
-                        <th scope="col">Accion</th>
-                    </tr>
-                </thead>
-                <tbody id="tablabody">
-                    <!-- aqui tabla carrito -->
-                </tbody>
-            </table>
-        </div>
-        <div>
-            <h4 id="gastoTotal">Total: $</h4>
+            <span class="navBar__btnCartResponsive" id="btnCartViewResponsive">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="navBar__btnCartResponsive-counter"></span>
+            </span>
+        </nav>
+    </header>
+
+    <div class="cart">
+        <div class="cart__sideContainer">
+            <div class="cart__sideContainer__title">
+                <i class="fas fa-solid fa-angle-right"></i>
+                <p><i class=" fas fa-solid fa-cart-arrow-down"></i> Carrito</p>
+            </div>
+            <div class="cart__sideContainer__items" id="cart__items">
+            </div>
+            <div class="cart__sideContainer__resume">
+                <p class="cart__sideContainer__resume__total">Carrito vacio</p>
+                <button class="cart__sideContainer__resume__btnFinishBuy">Continuar compra</button>
+            </div>
         </div>
     </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <!-- Sweet Alert -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Mi script -->
-    <script src="script.js"></script>
+    <main class="mainInformation" id="mainInformation">
+        <div class="mainInformation__content">
+
+            <h1>SIEMPRE HAY GOOD NEWS :)</h1>
+            <h2>COLECCION SUMMER 22/23 DISPONIBLE</h2>
+            <p>  </p>
+        </div>
+    </main>
+
+    <svg class="mainInformation-svg" width="100%" viewBox="0 0 1280 140" preserveAspectRatio="none">
+        <g>
+            <path d="M0 70 L640 140 L1280 70 L1280 0H0z" />
+        </g>
+    </svg>
+
+    <div class="productsInformation" id="productsInformation">
+        <p class="productsInformation__title">SHOP NOW</p>
+        <p class="productsInformation__results"></p>
+    </div>
+    <!-- Aqui se listan los productos -->
+    <div class="productsContainer" id="productsContainer"></div>
+
+    <div class="productAddToast">
+        <p><i class="fas fa-solid fa-check"></i>Producto agregado</p>
+    </div>
+
+    <footer class="footer">
+        <svg class="footer-svg" width="100%" height="100px" viewBox="0 0 1280 140" preserveAspectRatio="none">
+            <g>
+                <path d="M640 140L1280 0H0z" />
+            </g>
+        </svg>
+        <div class="footer__content">
+            <div class="footer__content__links">
+                <h4>PRODUCTOS</h4>
+                <a href="#" id="btnFooterSimpleTrue">SIMPLE TRUE</a>
+                <a href="#" id="btnFooterNewBorn">NEW BORN</a>
+                <a href="#" id="btnFooterNoFear">NO FEAR</a>
+                <a href="#" id="btnFooterTodosProductos">VER TODOS</a>
+            </div>
+            <div class="footer__content__social">
+                <h4>SEGUINOS EN</h4>
+                <div>
+                    <a href="https://www.instagram.com" target="/blank"><i
+                            class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com" target="/blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://twitter.com" target="/blank"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Template para cada producto del contenedor -->
+    <template id="template-containerProducts">
+        <div class="productsContainer__item">
+            <div class="productsContainer__item__info">
+                <div>
+                    <img src="" alt="" class="front">
+                    <img src="" alt="" class="back">
+                </div>
+                <div class="productsContainer__item__info-container">
+                    <h3 class="productsContainer__item__info__name"></h3>
+                    <p class="productsContainer__item__info__price"></p>
+                </div>
+            </div>
+            <button class="productsContainer__item__button"><i class="fas fa-solid fa-cart-plus"></i>
+            </button>
+        </div>
+    </template>
+    <!-- Template para cada producto del carrito -->
+    <template id="template-CartProducts">
+        <div class="cart__sideContainer__items__item">
+            <div class="cart__sideContainer__items__item__main">
+                <p class="cart__sideContainer__items__item__main__name"></p>
+                <button class="cart__sideContainer__items__item__main__btnDelete">
+                    <i class="fas fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="cart__sideContainer__items__item__description">
+                <img src="" alt="">
+                <div class="cart__sideContainer__items__item__description__units">
+                    <p class="cart__sideContainer__items__item__description__units__number"></p>
+                    <div class="cart__sideContainer__items__item__description__units__btn">
+                        <button class="cart__sideContainer__items__item__description__units__btn__add">
+                            <i class="fas fa-solid fa-plus"></i>
+                        </button>
+                        <button class="cart__sideContainer__items__item__description__units__btn__rest">
+                            <i class="fas fa-solid fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="cart__sideContainer__items__item__description__price"></p>
+            </div>
+        </div>
+    </template>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

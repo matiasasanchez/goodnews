@@ -1,0 +1,479 @@
+[
+    {
+        "id": 1,
+        "name":"DRESS CHOCOLATE",
+        "price":15000,
+        "category":"Dress Chocolate Simple True ",
+        "year":"2022",
+        "imgFrontUrl":"marron1.webp",
+        "imgBackUrl":"marron2.webp"
+    },
+    {
+        "id": 2,
+        "name":"REME RISA",
+        "price":7000,
+        "category":"REME RISA Simple True ",
+        "year":"2021",
+        "imgFrontUrl":"RISA.JPG",
+        "imgBackUrl":"RISABACK.JPG"
+    },
+    {
+        "id": 3,
+        "name":"BOLSITO RISA",
+        "price":5500,
+        "category":"BOLSITO RISA No Fear ",
+        "year":"2021",
+        "imgFrontUrl":"cartera1.jpg",
+        "imgBackUrl":"cartera2.jpg"
+    },
+    {
+        "id": 4,
+        "name":"ABRIGON VERDE",
+        "price":18000,
+        "category":"ABRIGON VERDE New Born ",
+        "year":"2021",
+        "imgFrontUrl":"aceituna1.webp",
+        "imgBackUrl":"aceituna2.webp"
+    },
+    {
+        "id": 5,
+        "name":"CARDIGAN AJEDREZ",
+        "price":17500,
+        "category":"CARDIGAN AJEDREZ New Born camiseta ",
+        "year":"2021",
+        "imgFrontUrl":"ajedrez1.webp",
+        "imgBackUrl":"ajedrez2.webp"
+    },
+    {
+        "id": 6,
+        "name":"BAG TIRAS",
+        "price":7000,
+        "category":"BAG TIRAS New Born ",
+        "year":"2022",
+        "imgFrontUrl":"bag1.webp",
+        "imgBackUrl":"bag2.webp"
+    },
+    {
+        "id": 7,
+        "name":"CARDIGAN BANANA",
+        "price":17500,
+        "category":"CARDIGAN BANANA New Born ",
+        "year":"2021",
+        "imgFrontUrl":"banana1.webp",
+        "imgBackUrl":"banana2.webp"
+    },
+    {
+        "id": 8,
+        "name":"CALZAS MARGARITA",
+        "price":5000,
+        "category":"CALZAS MARGARITA New Born",
+        "year":"2021",
+        "imgFrontUrl":"calzas1.webp",
+        "imgBackUrl":"calzas2.webp"
+    },
+    {
+        "id": 9,
+        "name":"CAMISA CANICHE",
+        "price":12000,
+        "category":"CAMISA CANICHE New Born ",
+        "year":"2022",
+        "imgFrontUrl":"caniche1.webp",
+        "imgBackUrl":"caniche2.webp"
+    },
+    {
+        "id": 10,
+        "name":"CARDIGAN CARTOON",
+        "price":17500,
+        "category":"CARDIGAN CARTOON New Born ",
+        "year":"2021",
+        "imgFrontUrl":"cardigan1.webp",
+        "imgBackUrl":"cardigan2.webp"
+    },
+    {
+        "id": 11,
+        "name":"PILUSO CHITA",
+        "price":7000,
+        "category":"PILUSO CHITA New Born ",
+        "year":"2021",
+        "imgFrontUrl":"chita1.webp",
+        "imgBackUrl":"chita2.webp"
+    },
+    {
+        "id": 12,
+        "name":"ABRIGON COLORES",
+        "price":18000,
+        "category":"ABRIGON COLORES New Born ",
+        "year":"2021",
+        "imgFrontUrl":"color1.webp",
+        "imgBackUrl":"color2.webp"
+    },
+    {
+        "id": 13,
+        "name":"ABRIGON CONEJO MALO",
+        "price":18000,
+        "category":"ABRIGON CONEJO MALO New Born ",
+        "year":"2022",
+        "imgFrontUrl":"conejo1.webp",
+        "imgBackUrl":"conejo2.webp"
+    },
+    {
+        "id": 14,
+        "name":"CUCHA PERRI",
+        "price":7000,
+        "category":"CUCHA PERRI New Born ",
+        "year":"2021",
+        "imgFrontUrl":"cucha1.webp",
+        "imgBackUrl":"cucha2.webp"
+    },
+    {
+        "id": 15,
+        "name":"TOALLON CARTIAS",
+        "price":6000,
+        "category":"TOALLON CARITAS New Born ",
+        "year":"2022",
+        "imgFrontUrl":"ducha1.webp",
+        "imgBackUrl":"ducha2.webp"
+    },
+    {
+        "id": 16,
+        "name":"CARTERITA FACE",
+        "price":7000,
+        "category":"CARTERITA FACE New Born ",
+        "year":"2021",
+        "imgFrontUrl":"face1.webp",
+        "imgBackUrl":"face2.webp"
+    },
+    {
+        "id": 17,
+        "name":"CAMISA FLORCITAS",
+        "price":9500,
+        "category":"CAMISA FLORCITAS New Born ",
+        "year":"2021",
+        "imgFrontUrl":"florcitas1.webp",
+        "imgBackUrl":"florcitas2.webp"
+    },
+    {
+        "id": 18,
+        "name":"CAMISA CAT",
+        "price":9500,
+        "category":"CAMISA CAT New Born ",
+        "year":"2022",
+        "imgFrontUrl":"gato1.webp",
+        "imgBackUrl":"gato2.webp"
+    },
+    {
+        "id": 19,
+        "name":"HAT GOOD NEWS",
+        "price":6500,
+        "category":"HAT GOOD NEWS New Born  ",
+        "year":"2022",
+        "imgFrontUrl":"hat1.webp",
+        "imgBackUrl":"hat2.webp"
+    },
+    {
+        "id": 20,
+        "name":"CLASSIC HODDIE",
+        "price":11000,
+        "category":"CLASSIC HODDIE New Born ",
+        "year":"2021",
+        "imgFrontUrl":"hooverde1.webp",
+        "imgBackUrl":"hooverde2.webp"
+    },
+    {
+        "id": 21,
+        "name":"INDUSTRIAL PETROLEO",
+        "price":12000,
+        "category":"INDUSTRIAL PETROLEO New Born ",
+        "year":"2021",
+        "imgFrontUrl":"industrial1.webp",
+        "imgBackUrl":"industrial2.webp"
+    },
+    {
+        "id": 22,
+        "name":"JARDINERO JEAN",
+        "price":14000,
+        "category":"JARDINERO JEAN No Fear ",
+        "year":"2020",
+        "imgFrontUrl":"jardinero1.webp",
+        "imgBackUrl":"jardinero2.webp"
+    },
+    {
+        "id": 23,
+        "name":"MANTITA AMOR",
+        "price":6000,
+        "category":"MANTITA AMOR No Fear ",
+        "year":"2022",
+        "imgFrontUrl":"manta1.webp",
+        "imgBackUrl":"manta2.jpeg"
+    },
+    {
+        "id": 24,
+        "name":"SHORT VIVO",
+        "price":8000,
+        "category":"SHORT VIVO No Fear ",
+        "year":"2022",
+        "imgFrontUrl":"ncieshort1.webp",
+        "imgBackUrl":"niceshort2.webp"
+    },
+    {
+        "id": 25,
+        "name":"MEDIAS HAPPY",
+        "price":3500,
+        "category":"MEDIAS HAPPY No Fear ",
+        "year":"2022",
+        "imgFrontUrl":"medias1.webp",
+        "imgBackUrl":"medias2.webp"
+    },
+    {
+        "id": 26,
+        "name":"SWEETER OSO",
+        "price":17500,
+        "category":"SWEETER OSO No Fear  ",
+        "year":"2022",
+        "imgFrontUrl":"oso1.webp",
+        "imgBackUrl":"oso2.webp"
+    },
+    {
+        "id": 27,
+        "name":"BUZITO DOGUI",
+        "price":4500,
+        "category":"BUZITO DOGUI No Fear ",
+        "year":"2021",
+        "imgFrontUrl":"perrito1.webp",
+        "imgBackUrl":"perrito2.webp"
+    },
+    {
+        "id": 28,
+        "name":"PILUSO COLOR",
+        "price":4500,
+        "category":"PILUSO COLOR No Fear ",
+        "year":"2021",
+        "imgFrontUrl":"piluso1.webp",
+        "imgBackUrl":"piluso2.webp"
+    },
+    {
+        "id": 29,
+        "name":"ABRIGON BRAND GOOD NEWS",
+        "price":21000,
+        "category":"ABRIGON BRAND GOOD NEWS No Fear  ",
+        "year":"2022",
+        "imgFrontUrl":"pink1.webp",
+        "imgBackUrl":"pink2.webp"
+    },
+    {
+        "id": 30,
+        "name":"PLATO FELIZ",
+        "price":1500,
+        "category":"PLATO FELIZ No Fear",
+        "year":"2022",
+        "imgFrontUrl":"plato1.webp",
+        "imgBackUrl":"plato2.webp"
+    },
+    {
+        "id": 31,
+        "name":"ETERNAL ROSA",
+        "price":5000,
+        "category":"ETERNAL ROSA No Fear ",
+        "year":"2020",
+        "imgFrontUrl":"rosa1.webp",
+        "imgBackUrl":"rosa2.webp"
+    },
+    {
+        "id": 32,
+        "name":"SANDALS FLOR",
+        "price":9500,
+        "category":"SANDALS FLOR New Born ",
+        "year":"2021",
+        "imgFrontUrl":"sandal1.webp",
+        "imgBackUrl":"sandal2.webp"
+    },
+    {
+        "id": 33,
+        "name":"BAG SANDWITCH",
+        "price":9000,
+        "category":"BAG SANDWITCH New Born ",
+        "year":"2021",
+        "imgFrontUrl":"sandwitch1.webp",
+        "imgBackUrl":"sandwitch2.webp"
+    },
+    {
+        "id": 34,
+        "name":"MEDIAS FELIZ",
+        "price":2500,
+        "category":"MEDIAS FELIZ New Born ",
+        "year":"2021",
+        "imgFrontUrl":"socks1.webp",
+        "imgBackUrl":"socks2.webp"
+    },
+    {
+        "id": 35,
+        "name":"TAZA BRAND",
+        "price":2000,
+        "category":"TAZA BRAND New Born ",
+        "year":"2022",
+        "imgFrontUrl":"taza1.webp",
+        "imgBackUrl":"taza2.webp"
+    },
+    {
+        "id": 36,
+        "name":"TOWEL MINIMAL",
+        "price":3000,
+        "category":"Simple True TOWEL MINIMAL",
+        "year":"2021",
+        "imgFrontUrl":"toalla1.webp",
+        "imgBackUrl":"toalla2.webp"
+    },
+    {
+        "id": 37,
+        "name":"TRAJECITO PERRI",
+        "price":3000,
+        "category":"Simple True TRAJECITO PERRI",
+        "year":"2021",
+        "imgFrontUrl":"trajecitodog1.jpeg",
+        "imgBackUrl":"trajecitodog2.webp"
+    },
+    {
+        "id": 38,
+        "name":"WALLY ",
+        "price":14000,
+        "category":"Simple True WALLY",
+        "year":"2022",
+        "imgFrontUrl":"wally1.webp",
+        "imgBackUrl":"wally2.webp"
+    },
+    {
+        "id": 39,
+        "name":"CAMPERON BRAND",
+        "price":22500,
+        "category":"Simple True AFA CAMPERON BRAND",
+        "year":"2022",
+        "imgFrontUrl":"winter1.webp",
+        "imgBackUrl":"winter2.webp"
+    },
+    {
+        "id": 40,
+        "name":"BLUE PANTS",
+        "price":8000,
+        "category":"Simple True BLUE PANTS",
+        "year":"2022",
+        "imgFrontUrl":"azul1.webp",
+        "imgBackUrl":"azul2.webp"
+    },
+    {
+        "id": 41,
+        "name":"BURGUER PANTS",
+        "price":8000,
+        "category":"Simple True BURGUER PANTS",
+        "year":"2022",
+        "imgFrontUrl":"burguer1.webp",
+        "imgBackUrl":"burguer2.webp"
+    },
+    {
+        "id": 42,
+        "name":"CAP CORAZON",
+        "price":5500,
+        "category":"Simple True CAP CORAZON",
+        "year":"2022",  
+        "imgFrontUrl":"cap1.webp",
+        "imgBackUrl":"cap2.webp"
+    },
+    {
+        "id": 43,
+        "name":"REMERON LAZY",
+        "price":14000,
+        "category":"Simple True REMERON LAZY",
+        "year":"2021",
+        "imgFrontUrl":"lazy1.webp",
+        "imgBackUrl":"lazy2.webp"
+    },
+    {
+        "id": 44,
+        "name":"JACKET LEOPARD",
+        "price":17000,
+        "category":"JACKET LEOPARD New Born",
+        "year":"2021",
+        "imgFrontUrl":"leopardo1.webp",
+        "imgBackUrl":"leopardo2.webp"
+    },
+    {
+        "id": 45,
+        "name":"JEAN CARITAS",
+        "price":12000,
+        "category":"JEAN CARITAS New Born ",
+        "year":"2022",
+        "imgFrontUrl":"jean1.webp",
+        "imgBackUrl":"jean2.webp"
+    },
+    {
+        "id": 46,
+        "name":"FLOWERS PANTS",
+        "price":12000,
+        "category":"FLOWERS PANTS No Fear ",
+        "year":"2022",
+        "imgFrontUrl":"pants1.webp",
+        "imgBackUrl":"pants2.webp"
+    },
+    {
+        "id": 47,
+        "name":"CAMPERA GOOD DOG",
+        "price":16000,
+        "category":"CAMPERA GOOD DOG New Born ",
+        "year":"2021",
+        "imgFrontUrl":"simon1.webp",
+        "imgBackUrl":"simon2.webp"
+    },
+    {
+        "id": 48,
+        "name":"SWEETER KITTY",
+        "price":7000,
+        "category":"SWEETER KITTY New Born ",
+        "year":"2021",
+        "imgFrontUrl":"swe1.webp",
+        "imgBackUrl":"swe2.webp"
+    },
+    {
+        "id": 49,
+        "name":"REMERON YELLOW",
+        "price":4000,
+        "category":"REMERON YELLLOW New Born ",
+        "year":"2020",
+        "imgFrontUrl":"yellow1.webp",
+        "imgBackUrl":"yellow2.webp"
+    },
+    {
+        "id": 50,
+        "name":"GOOFY CAP",
+        "price":7000,
+        "category":"GOOFY CAP New Born ",
+        "year":"2021",
+        "imgFrontUrl":"goofy1.webp",
+        "imgBackUrl":"goofy2.webp"
+    },
+    {
+        "id": 51,
+        "name":"DRES BRAND",
+        "price":9000,
+        "category":"DRESS BRAND New Born ",
+        "year":"2022",
+        "imgFrontUrl":"dres1.webp",
+        "imgBackUrl":"dres2.webp"
+    },
+    {
+        "id": 52,
+        "name":"MEDIAS BIPOLAR",
+        "price":2000,
+        "category":"MEDIAS BIPOLAR New Born ",
+        "year":"2021",
+        "imgFrontUrl":"bipolar1.webp",
+        "imgBackUrl":"bipolar2.webp"
+    },
+    {
+        "id": 53,
+        "name":"PANTS HAPPY SAD",
+        "price":12000,
+        "category":"PANTS HAPPY SAD New Born ",
+        "year":"2022",
+        "imgFrontUrl":"happysad1.webp",
+        "imgBackUrl":"happysad2.webp"
+    }
+]
